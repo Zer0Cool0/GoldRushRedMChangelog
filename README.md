@@ -1,5 +1,3 @@
-# Changelog
-
 Version 3.0.0 (10/06/2023)
 
 * * *
