@@ -1,3 +1,32 @@
+## Version 3.0.2 - 11/19/2023
+
+#### Inventory / Crafting / Shops
+- Fixed issues with opening cooking crafting and it closing immediately if you are not close enough
+- Fixed cooked venision in public cooking table
+
+#### Mapping
+- Fixed a rendering / LOD (level of detail) around blackwater, flat iron lake, limpany
+
+#### Banking
+- Fixed exploit
+
+#### Doors
+- Fixed a dead door in tumbleweed sheriff's office
+- Fixed 6 dead doors in Blackwater
+- Fixed a dead door in Strawberry
+
+#### Pausemenu
+- Fixed a bug if you have a specific menu type open it gets stuck if you hit ESC
+
+#### Butcher / Produce shop
+- Fixed a display bug for the offer amount, no more repeating decimals.
+
+#### SaltyChat
+- Reverted toggle range key back to J.
+
+#### Gold Panning
+- Fixed bug with the label of the prompt taking on drawn text on screen
+
 ## Version 3.0.1 - 11/19/2023
 
 #### Telegrams
