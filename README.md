@@ -1,4 +1,4 @@
-## Version 3.0.2 - 11/19/2023
+## Version 3.0.2 - 11/20/2023
 
 #### Inventory / Crafting / Shops
 - Fixed issues with opening cooking crafting and it closing immediately if you are not close enough
