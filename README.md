@@ -1,3 +1,35 @@
+## Version 3.0.3 - 11/21/23
+
+#### Appearance
+- Fixed Skin issues
+- Fixed Hair issues
+- You can now be bald
+- (Males) you can have no beard
+- Added admin creator command to allow players to be put into the character creator.
+- Loadskin can no longer be used while dead
+
+THIS HOTFIX FOR SKINS SHOULD NOT MESS UP ANY EXISTING SKINS
+THIS HOTFIX FOR SKINS SHOULD FIX ANY EXISTING ISSUE WITH SKINS (FACE/HAIR/SKIN TONE)
+
+(We will work the next few days on the issues with the barber and missing features there)
+(We are also working on missing hairstyles, like the mullet)
+
+#### Jobs
+- Fixed some job permissions related to doorlocks
+
+#### Pausemenu
+- Now checks if the radial is open. If it is, it will not open the pause menu
+
+#### Stables
+- Fixed issue with breeding timer
+- Re-added job check
+
+#### Job Center
+- Some balance tweaks
+
+ #### Criminal Land
+- Rebalance of mule missions
+
 ## Version 3.0.2 - 11/20/2023
 
 #### Inventory / Crafting / Shops
