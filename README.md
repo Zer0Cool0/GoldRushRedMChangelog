@@ -1,6 +1,465 @@
+## Version 3.0.19 - 12/11/23
+
+### Inventory
+- Fixed a bug where an animation will play if you use the hotkey buttons. If you had a revolver equipped, and hit "1" it would still start playing the unholster animation for revolvers even if your revolver was not in that hotbar slot.
+- Fixed a bug where the weapon would appear immediately in your hand with no animation. This is a fundamental issue with how the game engine handle weapons and inventory natively.
+- Note that if you are on a horse, it will still immediately put it in your hands
+- Fixed the logic for applying gun customizations.
+- Fixed a bug with the oil prospecting tool not being usable.
+- Fan from general store now works
+- Chewing tobacco now works
+
+### Gun Modifications
+- Completely rewritten
+- The rewrite fixed: wood tints and issues with applying the data to customized guns.
+- If you have trouble with tints sticking, try using the first grip option
+- Note the way the data saves is different. I wrote conversions for the data so your existing firearms that have been customized SHOULD still work.
+
+### Clothing Wheel
+- Added image for gunbelt accessories
+- Added image for hair accessories
+
+### Trains
+- Completely new script
+- Requires Coal to run
+- Miscellaneous Jobs
+- Storage
+
+### First Person Overhaul
+- Return of the 2.0 first person script.
+- You can enter this mode by holding BACKSPACE and hitting P
+
+### Butchershop
+- Price balances
+
+## Version 3.0.18 - 12/08/23
+
+### Bee Keeping
+- Fixed stashes
+- Fixed inability to harvest honey
+- Improved some functionality
+
+### Clothing Wheel
+- Added Hair Accessories & Command (/hairaccs)
+- Fixed eyewear & added Command (/eyewear)
+- Fixed gun belt accessories & added Command (/gunbeltaccs)
+
+### Wagons
+- Added proper slots / weight per wagon type
+
+### Banking
+- Fixed taxes. Your money at the bank will now be taxed properly.
+
+### Doctor Job
+- Fixed some bugs with the med bag, stackable in stashes again.
+- Added the ability to request a doctor at the NPC doctor.
+
+### Saint Denis
+- Mapping changes
+- Collision fixes
+
+### New Wagon Scrapping
+- Venture into the unknown as you uncover fresh wagon scrapping sites scattered across the vast Commonwealth. Brace yourself for thrilling adventures and stay vigilant, as encounters with the law add an extra layer of excitement to your journey.
+
+### New Veterinarian Clinic
+- Veterinarians take charge of their own clinic in Valentine, where they embark on a quest to discover and treat sick and wounded animals before situations escalate. This exciting new feature boasts over 60 distinct scenarios for treating a variety of animals. Get ready for a rewarding and challenging experience in the world of veterinary care.
+
+## Version 3.0.17 - 12/06/23
+
+- Fixed an issue especially with the badge menu where the inventory could be opened with an ox_lib menu open
+- Fixed an issue where the annesburg saw mill 3rd eye would double up each time you left and came back
+- Fixed an issue with the Tumbleweed bank where you could see and access the prompt to plant a bomb on the vault through the outside wall
+- Fixed an issue with boats script that caused them to not move to the harbor they were parked at
+- Fixed an issue with the plainview boat depot (teleported you to another town)
+- Fixed an issue where tamed horses were assigned the wrong gender
+- Fixed an edge case that locked players in stable when they decline the price of horse tack
+- Fixed glass job crafting items having the same label ('Jar' for a lot of stuff)
+- Added missing annesburg sawmill blip (it was still in stdenis doubling up on the original)
+- You can now pick up arrows off the ground and it will replenish the bow in your hand or the first bow in your inventory
+- You can now pick up tomahawks and throwing knives off of the ground
+
+## Version 3.0.16 - 12/05/23
+
+### Flasks
+- Both flasks and canteens restore 50% less thirst.
+Note: This will likely continue to be balanced
+
+### Character Creation
+- Minimum height has been upped by to 160cm from 150cm.
+
+### Government Jobs (Lawyers, etc)
+- Moved clock in / out in St Denis to the government building.
+
+### Police Job
+- Moved the coach spawn position in Annesburg.
+
+### Farming
+- Fixed a bug with shovel durability, allowed you to plant, but would eat the seed and not actually plant the crop.
+
+### Cooking / Crafting
+- Added cooking pot to Annesburg
+
+### Train Conductors
+- Added the ability to clock in and out.
+
+### Stables
+- Player horses now kick much less
+- Added horse courage system. Horses gain more courage as they are exposed to threats
+- Pressing CTRL + SPACE on a horse will make it rear. If the horse level is only 1 or 2, (exp under half max) you will fall off.
+
+### Wagons
+- Improved spawning / despawning logic
+- Moved cart parking to radial menu (context based when in parking pos. parking position same as spawn position)
+- Added cart transfer option to third eye
+
+### Housing
+- Key holders now have access to the stash / wardrobe / cooking
+
+## Version 3.0.15 - 12/04/23
+
+### Farming
+- Added more optimization to third eye. Hoping this fixes some of the intense lag experienced by players who are farming for extended periods of time.
+
+### Doctor Job
+- Fixed bug with MDT where reports were not readable
+- Fixed a bug with MDT where reports would not load when going to that page.
+- MDT Access moved to correct building in Rhodes
+- MDT Access added to guarma
+- Moved Armadillo storage thirdeye
+- Fix bugs with med bag, has uses instead of durability. Cancellable (will not use a usage)
+- Removed the focus "G" to visit. Its been moved to the radial (It was there just not working properly)
+- Removed an unnecessary command that alerted doctors
+- NPC doctor no longer counts assistant doctors (rank 1)
+- Treatment bed added to Rhodes
+- Treatment bed added to vanhorn
+- Beds now work at all offices
+
+### Injuries
+- Bleeding no longer causes a ragdoll when sprinting
+- Snake bites no longer causes a ragdoll when sprinting
+
+### Crafting
+- Splint added to doctor + public crafting
+
+### Mapping
+- Various collision fixes
+- Removed Saint Denis Court house to determine if its contributing to crashes.  (Recommended to clear cache)
+
+### Slaughterhouse
+- Slaughterhouse for ranching items now operational
+- Job locked to ranch roles
+
+## Version 3.0.14 - 12/03/23
+
+### Weapon Repair
+- Initial release. (12/01/23)
+- Ability to clean weapons (12/01/23)
+- Does not cost money, but costs parts (12/01/23)
+- Fixed two bugs that require a relog (inventory busy & cannot move)
+
+### Police Job
+- MDT penal code updated (12/01/23)
+
+### Pianos
+- Third eye pianos to play, not the seat (12/3/23)
+
+### Horse Training / Stables
+- Fixed a bug where wild horses could be sold for an exorbitant amount
+- Fixed an unintended feature where a non-horse trainer could break a horse, bring it to a trainer to then tame.
+
+### Emotes
+- More dance emotes added to F6 key
+
+### Weather
+- The month of December will feature snowy weather
+
+### Knockout
+- Script has been put in to be tested, good for fights and horse kicks
+- Feedback and bug reports very much welcomed
+
+### Crafting
+- Numerous balances to recipes
+- Cooking pot added to Saint Denis docks
+
+## Version 3.0.13 - 11/30/23
+
+### Train Conductors
+- Bossmenus added to train stations
+
+### Blacksmithing/Gunsmithing
+- Balance tweaks
+- Output issue fixed on grindstone
+- Missing knife model added (Trader Knife)
+
+### Blackmarket
+- Gold bar item fixed
+
+### Stashes/Inventories
+- Changes implemented to prevent item loss issues
+
+### Horse Training Grounds
+- XP buffs balanced more
+- Horse leading can only gain XP if they are young
+
+### Camps/Properties
+- Wardrobe is now functioning properly for both properties & camps
+- Fixed camps not taking upkeep. Now it is 1 camp supplies per 6 hrs.
+
+### Drug Sales
+- Balances made
+- Offset the radius of law alerts (more than they already were)
+
+### Camps
+- Camp cooking thirdeye fixed
+
+## Version 3.0.12 - 11/29/23
+
+### Processing Plant
+- Animal feed added
+- Butter added
+
+### Mining
+- Output balances on cracking
+
+### Blacksmithing
+- Fixed Macfarlanes forge
+
+### Scenes
+- Fixed bug with text scenes (could not place them)
+
+### Government Jobs
+- Added clock-in ability for gov jobs (lawyers, DA, etc)
+
+### Police / Doctor Job
+- Fixed bug where if you scroll in first person to aim down sights it would show the last five alerts
+
+### Poker
+- Fixed some bugs with some functions
+
+### Roulette
+- Lowered chip limit
+
+### Drug Sales
+- Fixed % chance to alert law
+
+### Scenarios
+- Added some missing scenarios (standcoffee / standsmoke)
+- Added "notes" which already existed as "notebook", just allows either or now
+
+### Notebook
+- Fixed setting an image breaking the NUI, this has been confirmed working with discord image links
+
+### Butcher
+- Added butcher to Paraiso
+
+### Camps
+- Fixed a bug where you were unable to move a previously placed prop
+- Fixed a bug with cooking props not working
+- The prop list at camps is now sorted in alphabetical order
+- Removed a bugged prop (tipi 2) and replaced it with a different model
+- Increased range at which you can see camps
+
+### Government Jobs
+- Fixed the in-ability to clock in at all location
+
+### Gun Crafting
+- Fixed the in-ability to craft any gun
+
+### Horse Training Grounds
+- Western training grounds added to MacFarlanes Ranch
+- Eastern training grounds added near Emerald Ranch
+
+## Version 3.0.11 - 11/28/23
+
+### Stables
+- Tweaks to horse spawning
+- Added Mask Tack option
+- Added Bridle Tack option
+- Added horse training areas system
+
+### Appearance
+- Fixed /loadskin health issue
+- Added mullet hair option to both male and female peds
+- Fixed strawberry barber
+
+### Fishing
+- Fixed empty bags being dropped
+
+### Doctor
+- Change keys of doctor revive prompt (I instead of E)
+
+### Mapping
+- Removed some MLOs from Blackwater to test RAGE crash issues
+
+### Blacksmithing/Gunsmithing
+- Changes will come to balance things accordingly, nothing is set in stone and will be adjusted now that we have seen output/mining rates etc
+- Please provide quality feedback in your business tickets and we will get issues sorted
+
+### Telegrams
+- Fixed directory search feature
+- Added the ability to create physical copies of telegrams and view those copies anywhere
+
+### Spawn
+- Moved the respawn timer / press e text on screen way down to get it out of the way
+
+### Police Job / Doctor Job / Misc Jobs
+- Disabled ledgers until we can figure out why they are not saving
+- Police / Doctor job alerts now show location
+
+### Scenes
+- You will no longer attack someone while placing a scene
+- Removed "E" to inspect, you now do this action through the radial menu when you are close enough to a scene
+
+### Blacksmithing
+- Typos fixed on recipes
+- Some balancing done, more to come
+- Parts bench & tool bench should now function properly
+- As always please report any issue/feedback
+
+### Ciudad Paraiso
+- Telegram office fixed
+- Street lights added by request
+
+### Housing
+- Wardrobe, stash, and cooking prompts fixed
+
+### Farming
+- A few old farm spots that weren't rotated from 2.0 have been moved
+
+### Logging
+- New logging camp added in Ambarino
+- Fixed an exploit that allowed a double drop from trees
+- Rebalanced wood weights (they were invalid)
+
+## Version 3.0.10 - 11/27/23
+
+### Barber / Appearance
+- Fixed issue with female character peds not syncing properly (Body Types, Facial Features, etc)
+- Barber has been completely rewritten, all features should work and work properly (Without changing your skin tone)
+- Third eye on the chairs in: Blackwater, Armadillo, Valentine, Saint Denis
+- Camera Controls: Q: Rotate Character Left | E: Rotate Character Right | W: Zoom In | S: Zoom Out | Z: Camera Down, X: Camera Up
+  
+[NOTE: MAKE SURE YOU HIT SAVE NOT EXIT]
+
+### Character Select / Spawn
+- Fixed for 4k resolutions
+
+### Camps
+- Camp Stashes are now shared
+
+### Stashes
+- Fix implemented to resolve loss of items in stashes
+
+### Story Missions
+- Lowered volume of speech
+- If you get instanced during a mission, it now cancels
+
+### Loans
+- Added creditor to Saint Denis
+- Added creditor to Valentine
+
+### Police Job
+- Fixed an issue where command was unable to hire
+- Fixed a bossmenu promotion bug
+
+### Targets
+- Super important; you can now pet cats
+
+## Version 3.0.9 - 11/26/23
+
+### Inventory / Crafting / Shops
+- Possible fix implemented to prevent "edge case" errors when equipping a weapon too fast
+- Fixed bug where weapons with no durability were usable on horseback & presumably wagons & boats.
+- Added Tin ore icon
+- Added Tin bar icon
+- Fixed Tin bar label (was "Tib" Bar)
+- Added Tin bar as a smeltable item at the forge.
+- Fixed a crafting issue with doctor's venom elixir
+- Fixed a bug where you could craft food from horseback
+
+### Warehouses
+- Increased base slot count to 100 (11/25/23)
+- Increased base weight to 250KG (11/25/23)
+
+### Appearance / Clothes wheel
+- Fixed a Bug where if you would change clothes without saving and outfit it would not apply properly.
+- Fixed a small logic bug where an error would occur if you did not have that clothing item on and used a clothing command
+- Fixed a bug where if you changed clothes / outfits it would not reset the clothing wheel.
+- Fixed a bug where armor was not removable from the clothing wheel. Subsequently, /armor now works.
+- Added the ability to tuck pants into boots into the radial and a slash command (/tuck)
+- Added Skirts as a togglable option
+- Added /sleeves (toggle sleeves up / down)
+- Added /collar (toggle collar buttoned / unbuttoned)
+- Added /bandana (toggle bandana up / down)
+- Added /bandanat (toggle bandana on / off)
+
+### Flasks
+- Fixed health not going down enough when drinking dirty water
+- Change notify depending on drink status (dirty / clean)
+- Nerfed dirty water thirst. Basically its 2x better to use a clean flask.
+
+### Games / Entertainment
+- Fixed issue with being unable to close Ouija NUI (Its the ESC key)
+- Fixed grammar error in ludo game (thingking -> thinking)
+
+## Version 3.0.8 - 11/24/23
+
+### Appearance / Clothing Store / Character Creator
+- Added the ability to delete outfits
+- Fixed a bug where if you equipped an outfit, then loaded your skin it would not persist
+- Fixed teeth hashes (They were incorrect so no matter what you choose - they never changed from default)
+- When selecting teeth in creator, you characters mouth now opens for a better visual.
+- The character ped now is FORCED to look right at the camera, no longer while they look around
+- Moved "face" camera in creator closer to face so you have a better visual on what you are doing
+- Fixed the height of the camera for different character heights, should all be in frame now
+- Added Flat price for finishing buying clothes and saving new outfits
+- Added a cap on outfits (more slots will be add later)
+
+### Law MDT
+- Fixed year mismatch (whoops)
+
+### Farming
+- Lowered the radius in which the third eye registers on the plant targets from 15 to 5, hopefully solving some FPS drops and improving overall optimization
+
+### Butcher / Blackmarket Butcher / Produce Shops
+- Switch the stash checking from server id to character citizen id. Purpose of this is to allow persistency in the event of a client crash. Items will now be there upon return, so long as you rejoined within 20 minutes.
+
+## Version 3.0.7 - 11/24/23
+
+### Inventory / Crafting / Shops
+- Fixed the inability to crouch with a bow.
+
+### Drug Selling
+- Can no longer move while progress bar is active during selling (Note: You can still cancel this)
+- Added animations and props to the selling action
+- Removed SOUND effect from law man alert per feedback from law
+
+### Blacksmithing
+- Fixed durability bug with hammers
+
+### Farming
+- Fixed durability bug with buckets / shovel
+- Re-upped limit on individual farmlands
+- Adjusted some outputs
+- Removed a hidden farmland (the one moved last time), was causing an issue with some players camps
+
+### Lumberjack
+- Fixed durability bug with wood axe and milling saw
+
+### Doctors
+- Changed blip style
+- NPC doctor now works properly (the heal function that is), costs some money, and takes a little bit of time (not instant)
+
+### Blackmarket Butcher
+- New audio and ped models to differentiate from the regular butcher
+
+### Stagecoach Job
+- Moved Rhodes location to Emerald Ranch in an attempt to fix networking and ped issues
+- New pickup and drop off locations
+
 ## Version 3.0.6 - 11/23/23
 
-#### Inventory / Craft/ Shops
+#### Inventory / Craft / Shops
 - Moved the Item used / added / removed / holster / unholster notification down and decreased size by about 50% ⁠remove
 
 #### Drug Selling
