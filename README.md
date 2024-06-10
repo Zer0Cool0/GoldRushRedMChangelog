@@ -1,3 +1,42 @@
+## Version 3.0.25 - 06/10/24
+
+### Major Update (May - June)
+### Revamp Graverobbing 
+- We've given our grave robbing system a complete overhaul, recognizing it as one of the fundamental criminal activities. This revamp extends the process, encouraging more interaction between Criminals and Law counterparts.
+
+### Revamped Wagon Scraping
+- We've taken a fresh approach to the wagon scraping system, aiming to provide a more engaging experience for both criminals and their law enforcement adversaries.
+
+### Revamped Mule Missions
+Our beloved Mule missions have undergone a significant transformation. Instead of quick one-stop completions, we've introduced multiple steps and increased the benefits for participants.
+
+### Revamped Poaching Missions
+Responding to your feedback, we've made adjustments to promote better interactions between wardens and poachers, enhancing the overall experience for both sides.
+
+### Revamped Waitress Script
+Improved the UI for a more user-friendly experience. Now, instead of scrolling through a list of food or drink options, it automatically filters and displays only the items available in your inventory. We have also added over 10+ new prop items thanks to @Dr. James Keates
+
+### New: Side Quests
+Will you dare to embark on these intriguing side quests? Prepare to reap the rewards as you explore these additional adventures.
+
+### New: Criminal Leveling System
+Our criminal content is now part of an overarching "Criminal" Leveling System, providing a comprehensive progression path for aspiring lawbreakers. Characters will encounter pivotal moments and must make significant decisions that tie into our leveling system. Going to prison or working for different individuals will affect your Reputation throughout the commonwealth.
+
+### New: Criminal Progression System
+Many of our criminal scripts now feature a progression system. You start with one job and advance to the next, creating a dynamic and engaging experience
+
+### New: Criminal Shop
+Gain access to exclusive items through our criminal leveling system, unlocking new possibilities and tools for your illicit activities.
+
+### New: Drug Smuggling Mission
+Venture into the world of drug smuggling and deliver contraband for Mama and her associates throughout the Commonwealth, opening up new opportunities for lucrative ventures.
+
+### New: Hunting Soft Skills & Reputation 
+Embark on a journey through eight distinct levels of hunting expertise, from Greenhorn to Master Hunter. As your hunting and skinning skills improve, your yield from each animal increases. Remember to manage your soft skills and maintain the precision required for successful hunting and skinning.
+
+### New: Hunting License
+While currently optional for hunting, all certified trappers are now required to obtain a hunting license from the Game Warden's office. This license also serves as a tracker for your current level, ensuring compliance with hunting regulations.
+
 ## Version 3.0.19 - 12/11/23
 
 ### Inventory
