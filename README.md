@@ -8,34 +8,58 @@
 - We've taken a fresh approach to the wagon scraping system, aiming to provide a more engaging experience for both criminals and their law enforcement adversaries.
 
 ### Revamped Mule Missions
-Our beloved Mule missions have undergone a significant transformation. Instead of quick one-stop completions, we've introduced multiple steps and increased the benefits for participants.
+- Our beloved Mule missions have undergone a significant transformation. Instead of quick one-stop completions, we've introduced multiple steps and increased the benefits for participants.
 
 ### Revamped Poaching Missions
-Responding to your feedback, we've made adjustments to promote better interactions between wardens and poachers, enhancing the overall experience for both sides.
+- Responding to your feedback, we've made adjustments to promote better interactions between wardens and poachers, enhancing the overall experience for both sides.
 
 ### Revamped Waitress Script
-Improved the UI for a more user-friendly experience. Now, instead of scrolling through a list of food or drink options, it automatically filters and displays only the items available in your inventory. We have also added over 10+ new prop items thanks to @Dr. James Keates
+- Improved the UI for a more user-friendly experience. Now, instead of scrolling through a list of food or drink options, it automatically filters and displays only the items available in your inventory. We have also added over 10+ new prop items thanks to @Dr. James Keates
 
 ### New: Side Quests
-Will you dare to embark on these intriguing side quests? Prepare to reap the rewards as you explore these additional adventures.
+- Will you dare to embark on these intriguing side quests? Prepare to reap the rewards as you explore these additional adventures.
 
 ### New: Criminal Leveling System
-Our criminal content is now part of an overarching "Criminal" Leveling System, providing a comprehensive progression path for aspiring lawbreakers. Characters will encounter pivotal moments and must make significant decisions that tie into our leveling system. Going to prison or working for different individuals will affect your Reputation throughout the commonwealth.
+- Our criminal content is now part of an overarching "Criminal" Leveling System, providing a comprehensive progression path for aspiring lawbreakers. Characters will encounter pivotal moments and must make significant decisions that tie into our leveling system. Going to prison or working for different individuals will affect your Reputation throughout the commonwealth.
 
 ### New: Criminal Progression System
-Many of our criminal scripts now feature a progression system. You start with one job and advance to the next, creating a dynamic and engaging experience
+- Many of our criminal scripts now feature a progression system. You start with one job and advance to the next, creating a dynamic and engaging experience
 
 ### New: Criminal Shop
-Gain access to exclusive items through our criminal leveling system, unlocking new possibilities and tools for your illicit activities.
+- Gain access to exclusive items through our criminal leveling system, unlocking new possibilities and tools for your illicit activities.
 
 ### New: Drug Smuggling Mission
-Venture into the world of drug smuggling and deliver contraband for Mama and her associates throughout the Commonwealth, opening up new opportunities for lucrative ventures.
+- Venture into the world of drug smuggling and deliver contraband for Mama and her associates throughout the Commonwealth, opening up new opportunities for lucrative ventures.
 
 ### New: Hunting Soft Skills & Reputation 
-Embark on a journey through eight distinct levels of hunting expertise, from Greenhorn to Master Hunter. As your hunting and skinning skills improve, your yield from each animal increases. Remember to manage your soft skills and maintain the precision required for successful hunting and skinning.
+- Embark on a journey through eight distinct levels of hunting expertise, from Greenhorn to Master Hunter. As your hunting and skinning skills improve, your yield from each animal increases. Remember to manage your soft skills and maintain the precision required for successful hunting and skinning.
 
 ### New: Hunting License
-While currently optional for hunting, all certified trappers are now required to obtain a hunting license from the Game Warden's office. This license also serves as a tracker for your current level, ensuring compliance with hunting regulations.
+- While currently optional for hunting, all certified trappers are now required to obtain a hunting license from the Game Warden's office. This license also serves as a tracker for your current level, ensuring compliance with hunting regulations.
+
+### New: Hunting Violations and Strike System
+- Game Wardens now have enhanced authority to enforce justice, issuing violations and strikes against the hunting permits of both hunters and poachers. Accumulating too many strikes will affect your poaching and hunting reputation. If you make a mistake, be sure to amend it with the Game Warden Command.
+
+### New: Legal Hunter Shop
+- Reels & Rifles is a new NPC/Shop that does things by the book, She is a respected hunter throughout the commonwealth, and dislikes poachers to the fullest. Her life mission is to provide equipment and tasks to respect hunters throughout the commonwealth. Upon reaching the appropriate hunting level, unlock access to the newly unveiled Hunter/Trapper Shop, where a diverse array of hunting essentials and equipment awaits.
+
+### New: Backpacks & Bagtags
+- Enhance your carrying capacity and streamline stash organization effortlessly. Note: Players can carry only one bag at a time, and dropping them on the ground is not permitted.
+
+### New: Clothing Items
+- Taking your clothes off will now turn them into items in your inventory. Meaning your clothes can be stolen and given by/to other players.
+
+### Stables
+- Fixed an exploit
+
+### Gunsmithing
+- Discover rare firearms by collecting specialized parts from heists and other criminal activities!
+
+### Saloons & Restaurants
+- Experience a revamped cooking and preparation system in saloons, designed to offer freshly made meals to customers as they arrive, rather than serving old food. :smug:
+
+### Train Heist
+- Gather your posse and prepare for the return of the thrilling train heist! Choo choo!
 
 ## Version 3.0.19 - 12/11/23
 
